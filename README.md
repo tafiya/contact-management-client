@@ -1,8 +1,24 @@
-# React + Vite
+# Contact Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This project is a Contact Management System developed using React.js for the frontend, Express.js for the backend, and MongoDB for the database. Tailwind CSS is used for styling the frontend components.
 
-Currently, two official plugins are available:
+The system allows clients to submit their contact information through a frontend form. Admins can log in to view the submitted data, download it in PDF format, and manage users.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Frontend form for clients to submit contact information.
+- Admin dashboard with authentication.
+- View and manage submitted contact information.
+- Download contact information in PDF format.
+- Shareable link with social media sharing options.
+
+## Technology Stack
+- Frontend: React.js, Tailwind CSS
+- Backend: Express.js
+- Database: MongoDB
+
+## Prerequisites
+- Node.js
+- MongoDB
+
+live link- https://contact-management-1c230.web.app/
